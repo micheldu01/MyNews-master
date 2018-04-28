@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyNews</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //string for Search Articles
+    <string name="search_query_term">Search query term</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="end_date">End Date</string>
+    <string name="arts">Arts</string>
+    <string name="business">Business</string>
+    <string name="entrepreneurs">Entrepreneurs</string>
+    <string name="politics">Politics</string>
+    <string name="sport">Sport</string>
+    <string name="travel">Travel</string>
+    <string name="search">Search</string>
+    <string name="enable_notifications">Enable notifications (once per day)</string>
+    // string activity_about
+    <string name="text_about">MyNews application provides access to all articles published by the New York Times,
+movie book review ...</string>
+    // string activity_help
+    <string name="text_help">On the main page you will find the top stories.
+The most popular items
+and also on the business page.
+You have in the menu the possibility to search the articles of your choice, with the posibility to use dates.
+You have notofications in the right menu to warn you when a new article is published.</string>
+
+    // string Search Activity
+    <string name="no_box_was_chosen">You must choose a category and a keyword</string>
+
+    // STRING NOTIFICATION ACTIVITY
+    <string name="no_choice">You must choose a category and a keyword</string>
+
+    // STRING SEARCHARTICLES
+    <string name="no_article">There is no article redone a search</string>
+
+</resources>
