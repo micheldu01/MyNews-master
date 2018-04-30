@@ -54,8 +54,8 @@ public class NotificationsActivity extends AppCompatActivity {
     //value for method checkbox
     private int num = 0;
     // value for de hour of the notification
-    private int hour_of_day = 11;
-    private int minute = 25;
+    private int hour_of_day = 0;
+    private int minute = 0;
     private int second = 0;
 
 

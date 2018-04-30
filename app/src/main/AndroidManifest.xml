@@ -80,13 +80,12 @@
                 android:value=".view.MainActivity" />
         </activity>
 
-        <receiver android:name=".Notification.AlarmReceiver" />
+        <receiver android:name=".Notification.AlarmReceiver"
+            android:exported="true"/>
 
         <service
             android:name=".Notification.NotificationService"
             android:enabled="true" />
-
-
 
     </application>
 

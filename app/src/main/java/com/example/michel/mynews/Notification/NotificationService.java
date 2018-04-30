@@ -38,7 +38,7 @@ public class NotificationService extends Service {
     // DECLARE SHAREDPREFERENCES VALUES
     private SharedPreferences preferences;
     public static final String MyShared = "MyShared";
-    public static final String TITRE = "";
+    public static final String TITRE = "titre";
     public static final String YES_NO = "YES";
 
 
@@ -99,9 +99,9 @@ public class NotificationService extends Service {
             // create notification poupup
             Notification notification_poupup = new Notification.Builder(this)
                     //add title
-                    .setContentTitle("le message est bien passé")
+                    .setContentTitle("NYT")
                     //add text
-                    .setContentText("ajout du text")
+                    .setContentText("Il y a de nouveux articles")
                     //add icon
                     .setSmallIcon(R.mipmap.ic_launcher)
                     //use pendingIntent
